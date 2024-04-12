@@ -1,7 +1,5 @@
 .logo {
   display: inline-block;
-  position: relative;
-  margin-right: 0.5em;
 
   & span {
     color: var(--brand-blue);
@@ -10,12 +8,12 @@
   }
 
   & svg {
-    position: absolute;
-    bottom: 0;
-    right: -0.5em;
+    vertical-align: baseline;
+    margin-left: -0.1em;
+    margin-bottom: -1px;
 
     fill: var(--brand-yellow);
-    width: 0.75em;
-    height: 0.75em;
+    width: 0.35em;
+    height: 0.35em;
   }
 }
