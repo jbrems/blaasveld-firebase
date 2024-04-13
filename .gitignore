@@ -1,6 +1,8 @@
 .firebase/
 .github/
 .next/
+.vscode/
 node_modules/
 .firebaserc
+firebase.config.mjs
 firebase-debug.log
