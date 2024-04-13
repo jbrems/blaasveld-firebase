@@ -5,7 +5,7 @@ import { useEffect } from 'react'
 import firebase from 'firebase/compat/app'
 import * as firebaseui from 'firebaseui'
 import 'firebaseui/dist/firebaseui.css'
-import { auth } from '../firebase'
+import { auth } from '../../lib/firebase'
 
 const uiConfig = {
   signInSuccessUrl: '/profile',

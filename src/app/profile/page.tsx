@@ -2,7 +2,7 @@
 
 import { User, onAuthStateChanged } from "firebase/auth";
 import { useEffect, useState } from "react";
-import { auth } from "../firebase";
+import { auth } from "../../lib/firebase";
 
 export default function ProfilePage() {
   const [user, setUser] = useState<User | null>(null)
