@@ -2,7 +2,7 @@
   --background-color: #F0F0F0;
   --text-color: #333333;
 
-  --brand-blue: #134471;
+  --brand-blue: #2989E2;
   --brand-yellow: #EEB627;
 }
 
@@ -10,8 +10,6 @@
   :root {
     --background-color: #333333;
     --text-color: #F0F0F0;
-
-    --brand-blue: #2989E2;
   }
 }
 

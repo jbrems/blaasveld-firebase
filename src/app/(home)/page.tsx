@@ -1,13 +1,9 @@
-import styles from "./page.module.css";
 import { Branding } from "@/components/branding/Branding";
-import { Logo } from "@/components/logo/Logo";
-import Link from "next/link";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className={styles.main}>
-      <h1><Logo /> Welkom op <Branding /></h1>
-      <Link href="/login">Log in</Link>
-    </main>
+    <>
+      <h1>Welkom op <Branding /></h1>
+    </>
   );
 }
